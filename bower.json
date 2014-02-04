@@ -1,0 +1,16 @@
+{
+	"name": "angular-follow",
+	"version": "1.0",
+	"main": "./angular-follow.js",
+	"dependencies": {
+		"angular": "~1.2.1"
+	},
+	"readme": "angular-follow\n====================\n\nbower repo for angular-follow.js",
+	"readmeFilename": "README.md",
+	"_id": "angular-follow@1.0",
+	"description": "bower-angular-follow ==================",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/brendan-skyrkt/angular-follow.git"
+	}
+}
