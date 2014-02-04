@@ -1,3 +1,5 @@
+(function () {
+
 angular.module('angular-follow', [])
     .directive('angularFollow', ['$window', function ($window) {
         return {
@@ -64,3 +66,5 @@ angular.module('angular-follow', [])
             }
         }
     }]);
+
+}).call(this);
