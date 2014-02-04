@@ -1,5 +1,5 @@
 angular.module('angular-follow', [])
-    .directive('follow', ['$window', function ($window) {
+    .directive('angularFollow', ['$window', function ($window) {
         return {
             scope: {
                 followPoint: '=followPoint'
