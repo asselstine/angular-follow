@@ -16,10 +16,38 @@ You can customise the point at which the element follows the scroll by adding th
 
 Now the element will become fixed when the top of the viewport is within 100px of the element.
 
-Install
+Manual Install
 -------
 
 Just include the JavaScript file after the angular library inclusion.
+
+Bower Install
+-------------
+
+Add the dependency to your bower.json file:
+
+```json
+{
+  "name": "myproject",
+  "version": "0.0.0",
+  "authors": [
+    "Brendan Asselstine <brendan@skyrkt.com>"
+  ],
+  "dependencies": {
+    "angular": "1.2.1",
+    "angular-follow": "latest"
+  },
+  "resolutions": {
+    "angular": "1.2.1"
+  }
+}
+```
+
+Or install using bower install
+
+```bash
+bower install angular-follow
+```
 
 Behavior
 --------
